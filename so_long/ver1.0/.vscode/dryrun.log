@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/kimjaehwan/developer_jaekim/42seoul/BornToCode/so_long/ver1.0'
+make: `so_long' is up to date.
+ 
+make: Leaving directory `/Users/kimjaehwan/developer_jaekim/42seoul/BornToCode/so_long/ver1.0'
+ 

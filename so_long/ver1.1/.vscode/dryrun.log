@@ -1,0 +1,17 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/kimjaehwan/developer_jaekim/42seoul/BornToCode/so_long/ver1.1'
+cc -Wall -Wextra -Werror   -c -o main.o main.c
+cc -Wall -Wextra -Werror   -c -o init.o init.c
+cc -Wall -Wextra -Werror   -c -o get.o get.c
+cc -Wall -Wextra -Werror   -c -o draw.o draw.c
+cc -Wall -Wextra -Werror   -c -o close.o close.c
+cc -Wall -Wextra -Werror   -c -o error_a.o error_a.c
+cc -Wall -Wextra -Werror   -c -o error_b.o error_b.c
+cc -Wall -Wextra -Werror   -c -o event_function.o event_function.c
+cc -Wall -Wextra -Werror   -c -o event_function_util.o event_function_util.c
+cc -Wall -Wextra -Werror   -c -o event_function_second_util.o event_function_second_util.c
+cc -Wall -Wextra -Werror   -c -o get_next_line.o get_next_line.c
+cc -Wall -Wextra -Werror   -c -o get_next_line_utils.o get_next_line_utils.c
+cc -Wall -Wextra -Werror -L./mlx -lmlx -framework OpenGL -framework AppKit main.o init.o get.o draw.o close.o error_a.o error_b.o event_function.o event_function_util.o event_function_second_util.o get_next_line.o get_next_line_utils.o -o so_long
+make: Leaving directory `/Users/kimjaehwan/developer_jaekim/42seoul/BornToCode/so_long/ver1.1'
+ 

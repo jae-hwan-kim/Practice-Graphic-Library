@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/kimjaehwan/developer_jaekim/42seoul/BornToCode/so_long'
+cc -Wall -Wextra -Werror   -c -o main.o main.c
+cc -L./mlx -lmlx -framework OpenGL -framework AppKit main.o -o so_long
+ 
+make: Leaving directory `/Users/kimjaehwan/developer_jaekim/42seoul/BornToCode/so_long'
+ 
